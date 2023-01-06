@@ -32,34 +32,3 @@ while (pregunta === "si" || pregunta === "Si" || pregunta === "SI") {
 }
 
 alert("¡Muchas Gracias!");
-
-/* do {
-  let precioNuevo = parseInt(prompt("Digite el precio del nuevo juego: "));
-  
-  let precioConImpuestos = precioNuevo * impuestos;
-  
-  let precioNuevoConImpuestos = precioConImpuestos + precioNuevo;
-  
-  carritoFinal = carritoFinal + precioNuevoConImpuestos;
-  
-  console.log("El valor de su nuevo juego es: $" + precioNuevoConImpuestos);
-  
-  console.log("El total a pagar es de: $" + carritoFinal);
-
-  let pregunta = prompt("¿Desea añadir otro juego?"); */
-/* if (pregunta === "si" || pregunta === "Si" || pregunta === "SI") {
-  let precioNuevo = parseInt(prompt("Digite el precio del nuevo juego: "));
-
-  let precioConImpuestos = precioNuevo * impuestos;
-  console.log(precioConImpuestos);
-
-  let precioNuevoConImpuestos = precioConImpuestos + precioNuevo;
-
-  precioFinal = primerPrecioFinal + precioNuevoConImpuestos;
-
-  console.log("El valor de su nuevo juego es: $" + precioNuevoConImpuestos);
-
-  console.log("El total a pagar es de: $" + precioFinal);
-} else {
-  alert("¡Muchas gracias!");
-} */
